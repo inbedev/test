@@ -5,8 +5,8 @@ import React from 'react';
 const Field = ({ value, onChange, label }) => {
   return (
     <div>
-      <div class='ui icon input'>
-        <i class='search icon'></i>
+      <div className='ui icon input'>
+        <i className='search icon'></i>
         <input
           type='text'
           onChange={(e) => onChange(e.target.value)}

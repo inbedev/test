@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='ui container'>
       <Field onChange={setTerm} value={term} label='Tapez votre clavier' />
-      <div className='ui divider' />
+      <div className='ui divider'></div>
       <Speakers data={data} />
     </div>
   );
