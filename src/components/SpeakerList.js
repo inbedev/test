@@ -1,7 +1,7 @@
 /** @format */
 
 import React from 'react';
-import Speaker from './Speaker';
+import SpeakerDetail from './SpeakerDetail';
 
 const SpeakerList = ({ speakers }) => {
   return (
@@ -9,7 +9,7 @@ const SpeakerList = ({ speakers }) => {
       {speakers.map((speaker, index) => {
         return (
           <div className='four wide column' key={index}>
-            <Speaker {...speaker} key={index} />
+            <SpeakerDetail {...speaker} key={index} />
           </div>
         );
       })}

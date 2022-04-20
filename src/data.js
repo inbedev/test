@@ -378,4 +378,24 @@ export const data = [
       },
     ],
   },
+  {
+    id: '9394',
+    first: 'Batende',
+    last: 'James',
+    company: 'LIS-SARL',
+    bio: 'Responsable IT LIS-SARL | Anguler Expert | Java Expert | Management, Logistique, Transport',
+    twitterHandle: 'james_batend',
+    favorite: false,
+    sessions: [
+      {
+        id: '944',
+        title: 'Comprendre les algorithmes',
+        eventYear: '2018',
+        room: {
+          name: 'Crazylabs',
+          capacity: 30,
+        },
+      },
+    ],
+  },
 ];

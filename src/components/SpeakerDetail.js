@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const Speaker = ({
+const SpeakerDetail = ({
   first,
   last,
   company,
@@ -12,14 +12,14 @@ const Speaker = ({
   sessions,
 }) => {
   return (
-    <di className='ui card'>
+    <div className='ui card'>
       <div className='image'>
         <img alt='' src={`images/speaker-${id}.jpg`} />
       </div>
       <div className='content'>
-        <a href='#' className='header'>
+        <span className='header'>
           {first} - {last}
-        </a>
+        </span>
 
         <div className='description'>{bio}</div>
         <div className='ui divider'></div>
@@ -36,13 +36,13 @@ const Speaker = ({
         </span>
       </div>
       <div className='extra content'>
-        <a href='#'>
+        <span>
           <i className='bullhorn icon'></i>
           {sessions.length}
-        </a>
+        </span>
       </div>
-    </di>
+    </div>
   );
 };
 
-export default Speaker;
+export default SpeakerDetail;
