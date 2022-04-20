@@ -1,18 +1,12 @@
 /** @format */
 
-import React, { useState } from 'react';
-import Field from './components/Field';
-import { data } from './data';
-import Speakers from './components/Speakers';
+import React from 'react';
 
 function App() {
-  const [term, setTerm] = useState();
-
   return (
-    <div className='ui container'>
-      <Field onChange={setTerm} value={term} label='Tapez votre clavier' />
-      <div className='ui divider'></div>
-      <Speakers data={data} />
+    <div>
+      <h1>React JS WorkShop</h1>
+      <h2>Welcome tout a tous</h2>
     </div>
   );
 }
