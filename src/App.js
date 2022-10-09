@@ -1,14 +1,20 @@
-/** @format */
-
 import React from 'react';
+import Header from "./components/Header";
+import SpeakersUiList from './components/SpeakersUiList';
+import Footer from "./components/Footer";
 
-function App() {
+
+
+function App() { 
+  
   return (
     <div>
-      <h1>ReactJS</h1>
-      <h2>Bonjour a tous!!</h2>
+      <Header/>
+      <SpeakersUiList/>
+      <Footer/>
+    
     </div>
   );
 }
-
+ 
 export default App;
